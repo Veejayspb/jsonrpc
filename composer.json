@@ -1,0 +1,30 @@
+{
+    "name": "veejay/jsonrpc",
+    "description": "JSONRPC server and client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VeeJay",
+            "email": "veejayspb@gmail.com"
+        }
+    ],
+    "keywords": [
+        "jsonrpc",
+        "api"
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "veejay\\jsonrpc\\": "src",
+            "veejay\\jsonrpc\\tests\\": "tests/_support"
+        }
+    }
+}
